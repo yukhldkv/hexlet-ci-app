@@ -1,5 +1,9 @@
 # Example app for CI Hexlet course
 
+
+[![setup-test-lint](https://github.com/yukhldkv/hexlet-ci-app/actions/workflows/setup-test-lint.yaml/badge.svg)](https://github.com/yukhldkv/hexlet-ci-app/actions/workflows/setup-test-lint.yaml)
+
+
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
 ## System requirements
