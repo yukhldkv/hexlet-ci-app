@@ -1,0 +1,13 @@
+name: setup-test-lint
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Clone repo
+      -uses: actions/checkout@v4
+      # Install dependencies
+      -uses: actions/setup-node@v4
+      -run: make setup
+      -run: make test
+      -run: make lint
